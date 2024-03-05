@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+.Trashes
+
+# Xcode
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcuserstate
+project.xcworkspace/
+xcuserdata/
+
+# Cocoapods
+/Pods
+
+# Tuya SDK Secrets / Keys
+/Build
+*.podspec
+/TuyaHuya/TuyaKeys.swift

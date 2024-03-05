@@ -11,15 +11,23 @@
 		995F92D72B97973E00EEA19F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995F92D62B97973E00EEA19F /* ContentView.swift */; };
 		995F92D92B97973E00EEA19F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 995F92D82B97973E00EEA19F /* Assets.xcassets */; };
 		995F92DD2B97973E00EEA19F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 995F92DC2B97973E00EEA19F /* Preview Assets.xcassets */; };
+		995F92E42B97974D00EEA19F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995F92E32B97974D00EEA19F /* AppDelegate.swift */; };
+		99CB91DD2B97ACF40037B4BB /* TuyaKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CB91DC2B97ACF40037B4BB /* TuyaKeys.swift */; };
+		C3337D3516CAF3904569AFC5 /* Pods_TuyaHuya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E553B89D6E5C33E6952A8C4 /* Pods_TuyaHuya.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8E553B89D6E5C33E6952A8C4 /* Pods_TuyaHuya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TuyaHuya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		995F92D12B97973E00EEA19F /* TuyaHuya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TuyaHuya.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		995F92D42B97973E00EEA19F /* TuyaHuyaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuyaHuyaApp.swift; sourceTree = "<group>"; };
 		995F92D62B97973E00EEA19F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		995F92D82B97973E00EEA19F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		995F92DA2B97973E00EEA19F /* TuyaHuya.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TuyaHuya.entitlements; sourceTree = "<group>"; };
 		995F92DC2B97973E00EEA19F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		995F92E32B97974D00EEA19F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		99CB91DC2B97ACF40037B4BB /* TuyaKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuyaKeys.swift; sourceTree = "<group>"; };
+		BDD59C21C427023813FFC8A7 /* Pods-TuyaHuya.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TuyaHuya.release.xcconfig"; path = "Target Support Files/Pods-TuyaHuya/Pods-TuyaHuya.release.xcconfig"; sourceTree = "<group>"; };
+		FF75E5D1DB51F4F6D1DA3BEB /* Pods-TuyaHuya.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TuyaHuya.debug.xcconfig"; path = "Target Support Files/Pods-TuyaHuya/Pods-TuyaHuya.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3337D3516CAF3904569AFC5 /* Pods_TuyaHuya.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18E127483BB1038320464271 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E553B89D6E5C33E6952A8C4 /* Pods_TuyaHuya.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F82F54B695308763E674E75 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF75E5D1DB51F4F6D1DA3BEB /* Pods-TuyaHuya.debug.xcconfig */,
+				BDD59C21C427023813FFC8A7 /* Pods-TuyaHuya.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		995F92C82B97973D00EEA19F = {
 			isa = PBXGroup;
 			children = (
 				995F92D32B97973E00EEA19F /* TuyaHuya */,
 				995F92D22B97973E00EEA19F /* Products */,
+				2F82F54B695308763E674E75 /* Pods */,
+				18E127483BB1038320464271 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,6 +85,8 @@
 				995F92D82B97973E00EEA19F /* Assets.xcassets */,
 				995F92DA2B97973E00EEA19F /* TuyaHuya.entitlements */,
 				995F92DB2B97973E00EEA19F /* Preview Content */,
+				995F92E32B97974D00EEA19F /* AppDelegate.swift */,
+				99CB91DC2B97ACF40037B4BB /* TuyaKeys.swift */,
 			);
 			path = TuyaHuya;
 			sourceTree = "<group>";
@@ -76,9 +106,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 995F92E02B97973E00EEA19F /* Build configuration list for PBXNativeTarget "TuyaHuya" */;
 			buildPhases = (
+				34AB1FE0A36817BA602C1586 /* [CP] Check Pods Manifest.lock */,
 				995F92CD2B97973E00EEA19F /* Sources */,
 				995F92CE2B97973E00EEA19F /* Frameworks */,
 				995F92CF2B97973E00EEA19F /* Resources */,
+				DB5B6327B6561F0BE2914368 /* [CP] Embed Pods Frameworks */,
+				43082ADBDA797EFC1A978583 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,11 +167,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		34AB1FE0A36817BA602C1586 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TuyaHuya-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43082ADBDA797EFC1A978583 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TuyaHuya/Pods-TuyaHuya-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TuyaHuya/Pods-TuyaHuya-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TuyaHuya/Pods-TuyaHuya-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB5B6327B6561F0BE2914368 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TuyaHuya/Pods-TuyaHuya-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TuyaHuya/Pods-TuyaHuya-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TuyaHuya/Pods-TuyaHuya-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		995F92CD2B97973E00EEA19F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99CB91DD2B97ACF40037B4BB /* TuyaKeys.swift in Sources */,
+				995F92E42B97974D00EEA19F /* AppDelegate.swift in Sources */,
 				995F92D72B97973E00EEA19F /* ContentView.swift in Sources */,
 				995F92D52B97973E00EEA19F /* TuyaHuyaApp.swift in Sources */,
 			);
@@ -184,7 +278,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -245,7 +339,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -263,6 +357,7 @@
 		};
 		995F92E12B97973E00EEA19F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF75E5D1DB51F4F6D1DA3BEB /* Pods-TuyaHuya.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -289,7 +384,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.boringx.TuyaHuya;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.boringx.smarthome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -301,6 +396,7 @@
 		};
 		995F92E22B97973E00EEA19F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDD59C21C427023813FFC8A7 /* Pods-TuyaHuya.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -327,7 +423,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.boringx.TuyaHuya;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.boringx.smarthome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";

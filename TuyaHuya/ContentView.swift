@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  TuyaHuya
-//
-//  Created by Кирилл Иванов on 05.03.2024.
-//
-
 import SwiftUI
 
 struct ContentView: View {
